@@ -506,11 +506,7 @@ HybridDB for MySQL supports the following MySQL functions used in the SELECT sta
 |VAR\_POP\(expr\)| | |Y|
 |VAR\_SAMP\(expr\)| | |Y|
 |VARIANCE\(expr\)| | |Y|
-|WITH ROLLUP|Uses the statement ```
-GROUP BY ROLLUP(C1, C2,..., Cn)
-```
-
-, which is different from MySQL.| |Y|
+|WITH ROLLUP|Uses the statement `GROUP BY ROLLUP(C1, C2,..., Cn)`, which is different from MySQL.| |Y|
 
 **Compatibility**
 
@@ -571,16 +567,8 @@ Currently, HybridDB for MySQL supports the following Oracle functions in the que
 
 |Function name|Description|Alias|Supported|
 |-------------|-----------|-----|---------|
-|ROLLUP|Used in the GROUP BY clause, such as ```
-GROUP BY ROLLUP(C1, C2, ..., Cn).
-```
-
-| |Y|
-|CUBE|Used in the GROUP BY clause, such as ```
-GROUP BY CUBE(C1, C2, ..., Cn)
-```
-
-| |Y|
+|ROLLUP|Used in the GROUP BY clause, such as `GROUP BY ROLLUP(C1, C2, ..., Cn)`.| |Y|
+|CUBE|Used in the GROUP BY clause, such as `GROUP BY CUBE(C1, C2, ..., Cn)`.| |Y|
 |GROUPING| | |Y|
 |OVER|The OVER clause that specifies the window that the window function applies to.| |Y|
 |RANK|The rank function that can be used with a window function.| |Y|
