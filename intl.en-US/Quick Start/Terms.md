@@ -1,6 +1,6 @@
 # Terms {#concept_jws_smk_x2b .concept}
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/18487/153690682410143_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/18487/153691025910143_en-US.png)
 
 ## Region { .section}
 
