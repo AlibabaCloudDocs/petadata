@@ -1,7 +1,5 @@
 # Architecture {#concept_szq_gpf_x2b .concept}
 
-## Architecture { .section}
-
 HybridDB for MySQL is a hybrid transaction/analytical processing \(HTAP\) cloud database that uses a loosely coupled and distributed architecture, where links, computing, and storage are separated from each other. The following figure shows the core architecture.
 
 ![](images/10131_en-US.png "Architecure")
