@@ -30,12 +30,16 @@ insert_expr_list:
 The syntax of the INSERT SELECT clause is as follows:
 
 ```
-INSERT [IGNORE] INTO tbl_name (col_name [, col_name] ...) SELECT ...REPLACE INTO tbl_name (col_name [, col_name] ...) SELECT ...
+
+INSERT [IGNORE] INTO tbl_name (col_name [, col_name] ...) SELECT ...
+REPLACE INTO tbl_name (col_name [, col_name] ...) SELECT ...
+
+
 ```
 
 The restrictions for this clause are as follows:
 
--   The SELECT clause must contain the partitioning key of the INSERT target table.
+-   The SELECT clause must contain the partitioning key of the INSERT/REPLACE target table.
 -   The INSERT/REPLACE and SELECT clauses must contain specific column names.
--   If the INSERT target table contains an auto-increment ID primary key, the SELECT clause need to explicitly assign the auto-increment ID primary key.
+-   If the INSERT/REPLACE target table contains an auto-increment ID primary key, the SELECT clause need to explicitly assign the auto-increment ID primary key.
 
