@@ -69,5 +69,9 @@ HybridDB for MySQL uses a high-performance computing engine developed by Alibaba
 
 HybridDB for MySQL stores actual data in the storage engine. The storage engine provides routine features, such as data storage management, locking, concurrent control, transaction management, cache management, and space management. In addition, this storage engine provides performance enhancement features, such as data compression and partitioning, and column store indexes.
 
-The storage engine is pluggable, and can be replaced by other storage engines, such as InnoDB.
+In addition, the storage engine of HybridDB for MySQL is pluggable, and HybridDB for MySQL supports several storage engines:
+
+-   TokuDB: Row-storage engine with high throughput and high compression ratio
+-   CStore: Alibaba self-developed column-storage engine with high query performance
+-   InnoDB and other storage engines: If necessary, please submit a tickets to apply for these storage engines.
 
