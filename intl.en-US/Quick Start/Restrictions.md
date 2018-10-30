@@ -14,7 +14,6 @@ To make sure that you can run the instance securely and stably, HybridDB for MyS
 -   You can migrate data to the cloud using MySQL command-line tools and the Data Transmission service.
 
  |
-|MySQL storage engine|The TokuDB engine is supported.|
 |Database replication|HybridDB for MySQL provides the active/standby replication architecture. You do not need to establish this two-node cluster manually. Your application cannot directly access the standby instance in this cluster.|
 |Account, password, and database management|By default, you can manage the accounts, passwords, and databases, such as creating and deleting them, modifying permissions, and changing passwords, in the HybridDB for MySQL console. You can also manage accounts, passwords, and databases on the HybridDB for MySQL client.|
 
