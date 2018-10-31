@@ -14,7 +14,7 @@
 |Action|String|是|系统规定参数，取值为ResetAccountPassword。|
 |InstanceId|String|是|实例名。|
 |AccountName|String|是|账户名。|
-|NewPassword|String|是|新密码。大写、小写、数字、特殊字符占三位，长度8-32位，特殊字符`!@#$%^&*()_+-=`。|
+|NewPassword|String|是|新密码。至少包含大写字母、小写字母、数字、特殊字符这几种符号中的三种，长度8-32位，特殊字符`!@#$%^&*()_+-=`。|
 
 ## 返回参数 {#section_ey2_p5y_gbb .section}
 
