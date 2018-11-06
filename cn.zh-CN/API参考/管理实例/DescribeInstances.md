@@ -1,0 +1,427 @@
+# DescribeInstances {#concept_ovn_tx4_mfb .concept}
+
+## 描述 {#section_smw_m5y_gbb .section}
+
+查看该用户下指定的实例，或者全部的数据库实例列表。
+
+## 请求参数 {#section_mw3_45y_gbb .section}
+
+|名称|类型|是否必须|描述|
+|--|--|----|--|
+|<公共参数\>|-|是|参见[公共参数](cn.zh-CN/API参考/公共参数.md#)。|
+|Action|String|是|系统规定参数，取值为DescribeInstances。|
+|InstanceId|String|否|实例名。|
+|InstanceStatus|String|否|实例状态。|
+|ChargeType|String|否|付费类型。-   PrePaid（预付费包年包月）
+-   PostPaid（按量付费）
+
+|
+|PageNumber|Integer|否|页码，大于0且不超过Integer的最大值。默认值：1。|
+|PageSize|Integer|否|每页记录数，取值：10/20/30/40/50；默认值10。|
+
+## 返回参数 {#section_ey2_p5y_gbb .section}
+
+|名称|类型|描述|
+|--|--|--|
+|<公共返回参数\>|String|参见[公共返回参数](cn.zh-CN/API参考/公共参数.md#section_hs4_m3y_gbb)。|
+|PageNumber|Integer|页码。|
+|PageSize|Integer|每页记录数。|
+|TotalCount|Integer|总记录数。|
+|Instances|List<Instance\>|实例组成的集合。|
+
+|名称|类型|描述|
+|--|--|--|
+|InstanceId|String|实例名。|
+|InstanceName|String|数据库实例描述。|
+|ConnectionString|String|连接串。|
+|Port|String|端口号。|
+|InstanceStatus|String|实例状态。|
+|RegionId|String|地区ID。|
+|ZoneId|String|可用区ID。|
+|CreateTime|String|创建时间|
+|EndTime|String|终止时间|
+|NetworkType|String|网络类型-   VPC：专有网络
+-   Classic：经典网络
+
+|
+|VPCId|String|VPC网络ID。|
+|VSwitchId|String|VSwitch ID。|
+|Databases|List<Database\>|数据库组成的集合。|
+
+|名称|类型|描述|
+|--|--|--|
+|DBName|String|数据库名。|
+|ChargeType|String|付费类型。-   PrePaid（预付费包年包月）
+-   PostPaid（按量付费）
+
+|
+
+## 请求示例 {#section_gzk_t1z_lfb .section}
+
+```
+https://petadata.aliyuncs.com/?Action=DescribeInstances
+&<[公共请求参数]>
+```
+
+## 返回示例 {#section_hzk_t1z_lfb .section}
+
+**XML格式**
+
+```
+<DescribeInstancesResponse>  
+	<PageNumber>1</PageNumber>
+	<TotalCount>20</TotalCount>
+	<PageSize>10</PageSize>
+	<RequestId>C5129A71-E67D-4832-BF61-9087E1F7C0F0</RequestId>
+	<Instances>
+		<Instance>
+			<Databases>
+				<Database>
+					<ChargeType>PostPaid</ChargeType>
+					<DBName>wang_100</DBName>
+				</Database>
+			</Databases>
+			<NetworkType>Classic</NetworkType>
+			<InstanceStatus>ACTIVE</InstanceStatus>
+			<RegionId>cn-beijing</RegionId>
+			<CreateTime>2018-08-06T12:41:27Z</CreateTime>
+			<InstanceId>pd-xxxxxxxxxxxxxx</InstanceId>
+			<ZoneId>cn-beijing-c</ZoneId>
+		</Instance>
+		<Instance>
+			<Databases>
+				<Database>
+					<ChargeType>PrePaid</ChargeType>
+					<DBName>adb</DBName>
+				</Database>
+			</Databases>
+			<NetworkType>Classic</NetworkType>
+			<InstanceStatus>ACTIVE</InstanceStatus>
+			<RegionId>cn-zhangjiakou</RegionId>
+			<CreateTime>2018-07-24T11:20:53Z</CreateTime>
+			<InstanceId>pd-xxxxxxxxxxxxxx</InstanceId>
+			<ZoneId>cn-zhangjiakou-a</ZoneId>
+		</Instance>
+		<Instance>
+			<Databases>
+				<Database>
+					<ChargeType>PrePaid</ChargeType>
+					<DBName>adb</DBName>
+				</Database>
+			</Databases>
+			<NetworkType>Classic</NetworkType>
+			<InstanceStatus>ACTIVE</InstanceStatus>
+			<RegionId>cn-zhangjiakou</RegionId>
+			<CreateTime>2018-07-24T10:01:19Z</CreateTime>
+			<InstanceId>pd-xxxxxxxxxxxxxx</InstanceId>
+			<ZoneId>cn-zhangjiakou-a</ZoneId>
+		</Instance>
+		<Instance>
+			<Databases>
+				<Database>
+					<ChargeType>PrePaid</ChargeType>
+					<DBName>adb</DBName>
+				</Database>
+			</Databases>
+			<NetworkType>Classic</NetworkType>
+			<InstanceStatus>ACTIVE</InstanceStatus>
+			<RegionId>cn-zhangjiakou</RegionId>
+			<CreateTime>2018-07-24T09:30:46Z</CreateTime>
+			<InstanceId>pd-xxxxxxxxxxxxxx</InstanceId>
+			<ZoneId>cn-zhangjiakou-a</ZoneId>
+		</Instance>
+		<Instance>
+			<Databases>
+				<Database>
+					<ChargeType>PostPaid</ChargeType>
+					<DBName>adb</DBName>
+				</Database>
+			</Databases>
+			<NetworkType>VPC</NetworkType>
+			<InstanceStatus>ACTIVE</InstanceStatus>
+			<RegionId>us-west-1</RegionId>
+			<CreateTime>2018-07-19T09:46:51Z</CreateTime>
+			<InstanceId>pd-xxxxxxxxxxxxxx</InstanceId>
+			<ZoneId>us-west-1a</ZoneId>
+			<VSwitchId>vsw-xxxxxxxxxxxxxx</VSwitchId>
+			<VpcId>vpc-xxxxxxxxxxxxxx</VpcId>
+		</Instance>
+		<Instance>
+			<Databases>
+				<Database>
+					<ChargeType>PostPaid</ChargeType>
+					<DBName>test_sla_099</DBName>
+				</Database>
+			</Databases>
+			<NetworkType>VPC</NetworkType>
+			<InstanceStatus>ACTIVE</InstanceStatus>
+			<RegionId>us-east-1</RegionId>
+			<CreateTime>2018-06-14T09:41:30Z</CreateTime>
+			<InstanceId>pd-xxxxxxxxxxxxxx</InstanceId>
+			<ZoneId>us-east-1a</ZoneId>
+			<VSwitchId>vsw-xxxxxxxxxxxxxx</VSwitchId>
+			<VpcId>vpc-xxxxxxxxxxxxxx</VpcId>
+		</Instance>
+		<Instance>
+			<Databases>
+				<Database>
+					<ChargeType>PostPaid</ChargeType>
+					<DBName>adb</DBName>
+				</Database>
+			</Databases>
+			<NetworkType>Classic</NetworkType>
+			<InstanceStatus>ACTIVE</InstanceStatus>
+			<RegionId>us-east-1</RegionId>
+			<CreateTime>2018-06-14T06:18:32Z</CreateTime>
+			<InstanceId>pd-xxxxxxxxxxxxxx</InstanceId>
+			<ZoneId>us-east-1a</ZoneId>
+		</Instance>
+		<Instance>
+			<Databases>
+				<Database>
+					<ChargeType>PostPaid</ChargeType>
+					<DBName>test_a</DBName>
+				</Database>
+			</Databases>
+			<NetworkType>VPC</NetworkType>
+			<InstanceStatus>ACTIVE</InstanceStatus>
+			<RegionId>cn-beijing</RegionId>
+			<CreateTime>2018-06-08T03:49:24Z</CreateTime>
+			<InstanceId>pd-xxxxxxxxxxxxxx</InstanceId>
+			<ZoneId>cn-beijing-g</ZoneId>
+			<VSwitchId>vsw-xxxxxxxxxxxxxx</VSwitchId>
+			<VpcId>vpc-xxxxxxxxxxxxxx</VpcId>
+			<InstanceName>test</InstanceName>
+		</Instance>
+		<Instance>
+			<Databases>
+				<Database>
+					<ChargeType>PrePaid</ChargeType>
+					<DBName>adb</DBName>
+				</Database>
+				<Database>
+					<ChargeType>PostPaid</ChargeType>
+					<DBName>testdb</DBName>
+				</Database>
+				<Database>
+					<ChargeType>PostPaid</ChargeType>
+					<DBName>testdb_01</DBName>
+				</Database>
+			</Databases>
+			<NetworkType>Classic</NetworkType>
+			<InstanceStatus>ACTIVE</InstanceStatus>
+			<RegionId>cn-hangzhou</RegionId>
+			<CreateTime>2018-05-15T07:31:37Z</CreateTime>
+			<InstanceId>pd-xxxxxxxxxxxxxx</InstanceId>
+			<ZoneId>cn-hangzhou-b</ZoneId>
+			<InstanceName>创建时间2018-05-15-15-31-37</InstanceName>
+		</Instance>
+		<Instance>
+			<Databases>
+				<Database>
+					<ChargeType>PostPaid</ChargeType>
+					<DBName>adb</DBName>
+				</Database>
+			</Databases>
+			<NetworkType>Classic</NetworkType>
+			<InstanceStatus>ACTIVE</InstanceStatus>
+			<RegionId>ap-southeast-1</RegionId>
+			<CreateTime>2018-05-07T13:10:39Z</CreateTime>
+			<InstanceId>pd-xxxxxxxxxxxxxx</InstanceId>
+			<ZoneId>ap-southeast-1b</ZoneId>
+		</Instance>
+	</Instances>
+</DescribeInstancesResponse>
+```
+
+**JSON格式**
+
+```
+{
+    "PageNumber":1,
+    "TotalCount":20,
+    "PageSize":10,
+    "RequestId":"C5129A71-E67D-4832-BF61-9087E1F7C0F0",
+    "Instances":{
+        "Instance":[
+            {
+                "Databases":{
+                    "Database":[
+                        {
+                            "ChargeType":"PostPaid",
+                            "DBName":"wang_100"
+                        }
+                    ]
+                },
+                "NetworkType":"Classic",
+                "InstanceStatus":"ACTIVE",
+                "RegionId":"cn-beijing",
+                "CreateTime":"2018-08-06T12:41:27Z",
+                "InstanceId":"pd-xxxxxxxxxxxxxx",
+                "ZoneId":"cn-beijing-c"
+            },
+            {
+                "Databases":{
+                    "Database":[
+                        {
+                            "ChargeType":"PrePaid",
+                            "DBName":"adb"
+                        }
+                    ]
+                },
+                "NetworkType":"Classic",
+                "InstanceStatus":"ACTIVE",
+                "RegionId":"cn-zhangjiakou",
+                "CreateTime":"2018-07-24T11:20:53Z",
+                "InstanceId":"pd-xxxxxxxxxxxxxx",
+                "ZoneId":"cn-zhangjiakou-a"
+            },
+            {
+                "Databases":{
+                    "Database":[
+                        {
+                            "ChargeType":"PrePaid",
+                            "DBName":"adb"
+                        }
+                    ]
+                },
+                "NetworkType":"Classic",
+                "InstanceStatus":"ACTIVE",
+                "RegionId":"cn-zhangjiakou",
+                "CreateTime":"2018-07-24T10:01:19Z",
+                "InstanceId":"pd-xxxxxxxxxxxxxx",
+                "ZoneId":"cn-zhangjiakou-a"
+            },
+            {
+                "Databases":{
+                    "Database":[
+                        {
+                            "ChargeType":"PrePaid",
+                            "DBName":"adb"
+                        }
+                    ]
+                },
+                "NetworkType":"Classic",
+                "InstanceStatus":"ACTIVE",
+                "RegionId":"cn-zhangjiakou",
+                "CreateTime":"2018-07-24T09:30:46Z",
+                "InstanceId":"pd-xxxxxxxxxxxxxx",
+                "ZoneId":"cn-zhangjiakou-a"
+            },
+            {
+                "Databases":{
+                    "Database":[
+                        {
+                            "ChargeType":"PostPaid",
+                            "DBName":"adb"
+                        }
+                    ]
+                },
+                "NetworkType":"VPC",
+                "InstanceStatus":"ACTIVE",
+                "RegionId":"us-west-1",
+                "CreateTime":"2018-07-19T09:46:51Z",
+                "InstanceId":"pd-xxxxxxxxxxxxxx",
+                "ZoneId":"us-west-1a",
+                "VSwitchId":"vsw-xxxxxxxxxxxxxx",
+                "VpcId":"vpc-xxxxxxxxxxxxxx"
+            },
+            {
+                "Databases":{
+                    "Database":[
+                        {
+                            "ChargeType":"PostPaid",
+                            "DBName":"test_sla_099"
+                        }
+                    ]
+                },
+                "NetworkType":"VPC",
+                "InstanceStatus":"ACTIVE",
+                "RegionId":"us-east-1",
+                "CreateTime":"2018-06-14T09:41:30Z",
+                "InstanceId":"pd-xxxxxxxxxxxxxx",
+                "ZoneId":"us-east-1a",
+                "VSwitchId":"vsw-xxxxxxxxxxxxxx",
+                "VpcId":"vpc-xxxxxxxxxxxxxx"
+            },
+            {
+                "Databases":{
+                    "Database":[
+                        {
+                            "ChargeType":"PostPaid",
+                            "DBName":"adb"
+                        }
+                    ]
+                },
+                "NetworkType":"Classic",
+                "InstanceStatus":"ACTIVE",
+                "RegionId":"us-east-1",
+                "CreateTime":"2018-06-14T06:18:32Z",
+                "InstanceId":"pd-xxxxxxxxxxxxxx",
+                "ZoneId":"us-east-1a"
+            },
+            {
+                "Databases":{
+                    "Database":[
+                        {
+                            "ChargeType":"PostPaid",
+                            "DBName":"test_a"
+                        }
+                    ]
+                },
+                "NetworkType":"VPC",
+                "InstanceStatus":"ACTIVE",
+                "RegionId":"cn-beijing",
+                "CreateTime":"2018-06-08T03:49:24Z",
+                "InstanceId":"pd-xxxxxxxxxxxxxx",
+                "ZoneId":"cn-beijing-g",
+                "VSwitchId":"vsw-xxxxxxxxxxxxxx",
+                "VpcId":"vpc-xxxxxxxxxxxxxx",
+                "InstanceName":"test"
+            },
+            {
+                "Databases":{
+                    "Database":[
+                        {
+                            "ChargeType":"PrePaid",
+                            "DBName":"adb"
+                        },
+                        {
+                            "ChargeType":"PostPaid",
+                            "DBName":"testdb"
+                        },
+                        {
+                            "ChargeType":"PostPaid",
+                            "DBName":"testdb_01"
+                        }
+                    ]
+                },
+                "NetworkType":"Classic",
+                "InstanceStatus":"ACTIVE",
+                "RegionId":"cn-hangzhou",
+                "CreateTime":"2018-05-15T07:31:37Z",
+                "InstanceId":"pd-xxxxxxxxxxxxxx",
+                "ZoneId":"cn-hangzhou-b",
+                "InstanceName":"创建时间2018-05-15-15-31-37"
+            },
+            {
+                "Databases":{
+                    "Database":[
+                        {
+                            "ChargeType":"PostPaid",
+                            "DBName":"adb"
+                        }
+                    ]
+                },
+                "NetworkType":"Classic",
+                "InstanceStatus":"ACTIVE",
+                "RegionId":"ap-southeast-1",
+                "CreateTime":"2018-05-07T13:10:39Z",
+                "InstanceId":"pd-xxxxxxxxxxxxxx",
+                "ZoneId":"ap-southeast-1b"
+            }
+        ]
+    }
+}
+```
+
