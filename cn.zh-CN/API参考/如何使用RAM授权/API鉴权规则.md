@@ -1,7 +1,5 @@
 # API鉴权规则 {#concept_pnk_slp_mfb .concept}
 
-当子用户通过API 进行资源访问时，后台向RAM进行权限检查，以确保调用者拥有响应权限。
-
 当用户通过 OpenAPI 进行跨账户的HybridDB for MySQL资源访问时，HybridDB for MySQL后台向RAM进行权限检查，以确保资源拥有者已经将相关资源的相关权限授予调用者。每个不同的OpenAPI会根据涉及到的资源以及API的语义来确定需要检查哪些资源的权限。具体每个API的鉴权规则参见[API鉴权规则](#)。
 
 |Action|鉴权规则|
