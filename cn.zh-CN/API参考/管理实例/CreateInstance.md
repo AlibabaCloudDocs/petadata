@@ -23,7 +23,7 @@
 |AccountPassword|String|是|账户密码。|
 |PayType|String|否|付费类型：PrePaid和PostPaid，分别表是包年包月和按量付费。默认值为PostPaid。|
 |NetworkType|String|是|实例网络类型，取值为Classic或者VPC，默认为"Classic"|
-|VPCId|String|否|InstanceNetworkType=VPC时，VPCId必须填写，VPCId所在集群必须与RegionId保持一致。|
+|VpcId|String|否|InstanceNetworkType=VPC时，VpcId必须填写，VpcId所在集群必须与RegionId保持一致。|
 |VSwitchId|String|否|InstanceNetworkType=VPC时，VSwitchId必须填写，VSwitchId所在集群必须与ZoneId保持一致。|
 |InstanceName|String|否|实例描述，长度为256。|
 |SecurityIPList|String|否|IP白名单，默认值为`127.0.0.1`。|
