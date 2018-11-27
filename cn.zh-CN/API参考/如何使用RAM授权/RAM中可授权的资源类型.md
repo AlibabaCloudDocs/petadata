@@ -18,5 +18,5 @@
 
 -   所有$regionid应为某个region的id，或者“\*”。
 -   所有$dbinstanceid应为某个dbinstance的id，或者“\*”。
--   accoutid 当资源拥有者的userid，或者“\*”；以此类推。
+-   $accoutid 应为资源拥有者的userid，或者“\*”。
 
