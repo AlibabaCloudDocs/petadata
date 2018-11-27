@@ -31,11 +31,6 @@
 
 |API|描述|
 |---|--|
-|[DescribeTables](cn.zh-CN/API参考/管理表/DescribeTables.md#)|查询数据库内的表信息|
-|[DescribeTableInfo](cn.zh-CN/API参考/管理表/DescribeTableInfo.md#)|查询单个表结构|
-
-|API|描述|
-|---|--|
 |[DescribeMonitorItems](cn.zh-CN/API参考/监控与报警/DescribeMonitorItems.md#)|查看监控项列表|
 |[DescribeInstancePerformance](cn.zh-CN/API参考/监控与报警/DescribeInstancePerformance.md#)|查询实例的性能监控信息|
 |[DescribeDatabasePerformance](cn.zh-CN/API参考/监控与报警/DescribeDatabasePerformance.md#)|查询数据库的性能监控信息|
