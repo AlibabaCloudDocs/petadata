@@ -12,6 +12,7 @@
 
 |名称|类型|是否必须|描述|
 |--|--|----|--|
+|<公共请求参数\>|-|-|参见[公共参数](cn.zh-CN/API参考/公共参数.md#)|
 |Action|String|是|系统规定参数，取值：DescribeInstanceResourceUsage。|
 |InstanceId|String|是|实例名。|
 |StartTime|String|否|查询开始时间，格式如：2018-08-08T19:07:18Z。|
