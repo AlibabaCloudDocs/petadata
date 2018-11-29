@@ -15,7 +15,7 @@ Prerequisites:
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|<Common request parameters\>|-|-|For more information, see[Common parameters](reseller.en-US/API Reference/Common parameters.md#)|
+|<Common request parameters\>|-|-|For more information, see [Common parameters](reseller.en-US/API Reference/Common parameters.md#).|
 |Action|String|Yes|Required parameter, and value is RestoreDatabase.|
 |SrcInstanceId|String|Yes|The ID of the original instance.|
 |SrcDBName|String|Yes|The name of the original database.|
