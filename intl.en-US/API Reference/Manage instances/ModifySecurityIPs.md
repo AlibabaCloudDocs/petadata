@@ -23,7 +23,7 @@ Prerequisites of calling this API:
 -   2: Delete the whitelist.
 
 |
-|SecurityIps|String|No|The IP addresses in the whitelist that can up to 1,000 IP addresses separated with comas\(,\). Supported formats include `0.0.0.0/0`, `10.23.12.24` \(IP\), and `10.23.12.24/24` \(CIDR is short for Classless Inter-Domain Routing. /24 indicates the length of the prefix in an IP address, and range of length is from 1 to 32.\).|
+|SecurityIps|String|No|The IP addresses in the whitelist that can up to 1,000 IP addresses separated with comas \(,\). Supported formats include `0.0.0.0/0`, `10.23.12.24` \(IP\), and `10.23.12.24/24` \(CIDR is short for Classless Inter-Domain Routing. /24 indicates the length of the prefix in an IP address, and range of length is from 1 to 32.\).|
 |SecurityIPListName|String|No|The name of the whitelist. If you do not specify a name, IP addresses are configured in the **Default** whitelist.**Note:** You can create up to 50 whitelists for an instance.
 
 |
