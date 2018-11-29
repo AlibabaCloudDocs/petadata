@@ -2,7 +2,7 @@
 
 ## Description {#section_smw_m5y_gbb .section}
 
-You can call this operation to switch the network type for an instance, either from a VPC to a classic network or from a classic network to a VPC network. After the instance network is switched, the virtual IP \(VIP\) for connecting to the corresponding application changes. You must modify the VIP and restart the application.
+You can call this API to switch the network type for an instance, either from a VPC to a classic network or from a classic network to a VPC network. After the instance network is switched, the virtual IP \(VIP\) for connecting to the corresponding application changes. You must modify the VIP and restart the application.
 
 Prerequisites of calling this API:
 
@@ -13,7 +13,7 @@ Prerequisites of calling this API:
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|<Common request parameters\>|-|-|For more information, see[Common parameters](reseller.en-US/API Reference/Common parameters.md#)|
+|<Common request parameters\>|-|-|For more information, see [Common parameters](reseller.en-US/API Reference/Common parameters.md#).|
 |Action|String|Yes|Required parameter, and the value is SwitchInstanceNetType.|
 |InstanceId|String|Yes|The ID of the instance.|
 |TargetNetworkType|String|Yes|The network type that you want to switch to.-   VPC: a VPC network.
@@ -29,7 +29,7 @@ Currently, you can only switch from a classic network to a VPC network. Therefor
 
 |Name|Type|Required|
 |----|----|--------|
-|<Common response parameters\>|-|For more information, see[Common response parameters](reseller.en-US/API Reference/Common parameters.md#section_hs4_m3y_gbb)|
+|<Common response parameters\>|-|For more information, see [Common response parameters](reseller.en-US/API Reference/Common parameters.md#section_hs4_m3y_gbb).|
 
 ## Sample requests {#section_bld_v1z_lfb .section}
 
