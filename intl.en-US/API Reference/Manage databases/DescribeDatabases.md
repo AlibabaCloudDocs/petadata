@@ -8,7 +8,7 @@ You can call this API to retrieve a list of databases in an instance.
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|<Common request parameters\>|-|-|For more information, see[Common parameters](reseller.en-US/API Reference/Common parameters.md#)|
+|<Common request parameters\>|-|-|For more information, see [Common parameters](reseller.en-US/API Reference/Common parameters.md#).|
 |Action|String|Yes|Required parameter, and the value is DescribeDatabases.|
 |InstanceId|String|Yes|The ID of the instance.|
 |DBName|String|No|The name of the database.|
