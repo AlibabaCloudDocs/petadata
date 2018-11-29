@@ -21,7 +21,7 @@ When you create an instance, you must also create a database and an account for 
 |NodeNumber|String|Yes|The number of nodes.|
 |AccountName|String|Yes|The name of the account.|
 |AccountPassword|String|Yes|The password for the account.|
-|PayType|String|No|The billing method. Valid values: PrePaid \(Subscription\) and PostPaid\( Pay-As-You-Go\). The default value is PostPaid.|
+|PayType|String|No|The billing method. Valid values: PrePaid \(Subscription\) and PostPaid \( Pay-As-You-Go\). The default value is PostPaid.|
 |NetworkType|String|Yes|The network type of an instance. Valid values: Classic and VPC. Default value: Classic.|
 |VPCId|String|No|If you specify InstanceNetworkType as VPC, you must also specify VPCId. The VPC and the instance must be in the same region.|
 |VSwitchId|String|No|When you specify VPC for the InstanceNetworkType, you must specify VSwitchId. The VSwitch and the instance must be in the same zone.|
