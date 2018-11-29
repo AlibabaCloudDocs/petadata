@@ -51,7 +51,7 @@ You can call this API to retrieve a specific instance or all the instances in yo
 |Name|Type|Description|
 |----|----|-----------|
 |DBName|String|The name of the database.|
-|ChargeType|String|The billing method.-   PrePaid: \(monthly or annual\) subscription.
+|ChargeType|String|The billing method.-   PrePaid: Subscription.
 -   PostPaid: Pay-As-You-Go.
 
 |
