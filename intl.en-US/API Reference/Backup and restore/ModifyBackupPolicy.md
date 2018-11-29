@@ -12,7 +12,7 @@ You can call this API to modify the backup policy for a database, including the 
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|<Common request parameters\>|-|-|For more information, see[Common parameters](reseller.en-US/API Reference/Common parameters.md#)|
+|<Common request parameters\>|-|-|For more information, see [Common parameters](reseller.en-US/API Reference/Common parameters.md#).|
 |Action|String|Yes|Required parameter, and value is ModifyBackupPolicy.|
 |InstanceId|String|Yes|The ID of the instance.|
 |DBName|String|Yes|The name of the database.|
@@ -33,7 +33,7 @@ You can call this API to modify the backup policy for a database, including the 
 
 |Name|Type|Description|
 |----|----|-----------|
-|<Common response parameters\>|-|For more information, see[Common response parameters](reseller.en-US/API Reference/Common parameters.md#section_hs4_m3y_gbb)|
+|<Common response parameters\>|-|For more information, see [Common response parameters](reseller.en-US/API Reference/Common parameters.md#section_hs4_m3y_gbb).|
 
 ## Sample requests {#section_wgx_hbz_lfb .section}
 
