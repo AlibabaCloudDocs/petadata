@@ -10,7 +10,7 @@ You can call this API to create an account for a distributed database instance. 
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|<Common request parameters\>|-|-|For more information, see[Common parameters](reseller.en-US/API Reference/Common parameters.md#)|
+|<Common request parameters\>|-|-|For more information, see [Common parameters](reseller.en-US/API Reference/Common parameters.md#).|
 |Action|String|Yes|Required parameter, and the value is CreateAccount.|
 |InstanceId|String|Yes|The ID of the instance.|
 |AccountName|String|Yes|The name of the account. The account name must be 2-10 characters in length. It must start with a lowercase letter and can contain lowercase letters, numbers, and underscores \(\_\).|
@@ -46,7 +46,7 @@ For example, `{"ReadOnly":["mydb","mydb2"],"ReadWrite":["mydb3",mydb4]}`.
 
 |Name|Type|Description|
 |----|----|-----------|
-|<Common response parameters\>|-|For more information, see[Common response parameters](reseller.en-US/API Reference/Common parameters.md#section_hs4_m3y_gbb)|
+|<Common response parameters\>|-|For more information, see [Common response parameters](reseller.en-US/API Reference/Common parameters.md#section_hs4_m3y_gbb).|
 
 ## Sample requests {#section_rgr_cbz_lfb .section}
 
