@@ -2,7 +2,7 @@
 
 After an API operation is called, data is returned in a unified format. An HTTP status code that starts with `2xx` indicates that the call is successful. An HTTP status code that starts with `4xx` or `5xx` indicates that the call fails.
 
-For a successful call, data is usually returned in XML or JSON format. When you call an operation, you can specify the format of the returned data in the request parameters. The default format is XML. To make the responses more reader-friendly, the format of the sample responses in this topic is slightly adjusted. The actual responses are not formatted with line breaks or indentation.
+For a successful request, data is usually returned in XML or JSON format. When you call an API, you can specify the format of the returned data in the request parameters. The default format is XML. To make the responses more reader-friendly, the format of the sample responses in this topic is slightly adjusted. The actual responses are not formatted with line breaks or indentation.
 
 ## Successful responses {#section_khb_jjy_gbb .section}
 
