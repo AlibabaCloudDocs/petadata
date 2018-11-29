@@ -10,7 +10,7 @@ You can call this API to change the password for an instance account.
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|<Common request parameters\>|-|-|For more information, see[Common parameters](reseller.en-US/API Reference/Common parameters.md#)|
+|<Common request parameters\>|-|-|For more information, see [Common parameters](reseller.en-US/API Reference/Common parameters.md#).|
 |Action|String|Yes|Required parameter, and value is ModifyAccountPassword.|
 |InstanceId|String|Yes|The ID of the instance.|
 |AccountName|String|Yes|The name of the account.|
@@ -21,7 +21,7 @@ You can call this API to change the password for an instance account.
 
 |Name|Type|Required|
 |----|----|--------|
-|<Common response parameters\>|-|For more information, see[Common response parameters](reseller.en-US/API Reference/Common parameters.md#section_hs4_m3y_gbb)|
+|<Common response parameters\>|-|For more information, see [Common response parameters](reseller.en-US/API Reference/Common parameters.md#section_hs4_m3y_gbb).|
 
 ## Sample requests {#section_kfr_dbz_lfb .section}
 
