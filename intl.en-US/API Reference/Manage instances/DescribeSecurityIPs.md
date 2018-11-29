@@ -8,7 +8,7 @@ You can call this API to retrieve the IP whitelist for an instance.
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|<Common request parameters\>|-|-|For more information, see[Common parameters](reseller.en-US/API Reference/Common parameters.md#)|
+|<Common request parameters\>|-|-|For more information, see [Common parameters](reseller.en-US/API Reference/Common parameters.md#).|
 |Action|String|Yes|Required parameter, and value is DescribeSecurityIPs.|
 |InstanceId|String|Yes|The ID of the instance.|
 
