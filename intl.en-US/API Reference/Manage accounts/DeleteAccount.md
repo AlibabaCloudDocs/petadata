@@ -10,13 +10,13 @@ You can call this API to delete an account of the instance. The instance to whic
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|<Common request parameters\>|-|-|For more information, see[Common parameters](reseller.en-US/API Reference/Common parameters.md#)|
+|<Common request parameters\>|-|-|For more information, see [Common parameters](intl.en-US/API Reference/Common parameters.md#).|
 |Action|String|Yes|Required parameter, and the value is DeleteAccount.|
 |InstanceId|String|Yes|The ID of the instance.|
 |AccountName|String|Yes|The name of the account, which must be unique and meet the following requirements:-   It must start with a letter.
 -   It can contain lowercase letters, numbers, and underscores \(\_\).
 -   It must be no more than 16 characters in length.
--   For more information about invalid characters, see [Prohibited keywords](reseller.en-US/API Reference/Appendix/Prohibited keywords.md#).
+-   For more information about invalid characters, see [Prohibited keywords](intl.en-US/API Reference/Appendix/Prohibited keywords.md#).
 
 |
 
@@ -24,7 +24,7 @@ You can call this API to delete an account of the instance. The instance to whic
 
 |Name|Type|Description|
 |----|----|-----------|
-|<Common response parameters\>|-|For more information, see[Common response parameters](reseller.en-US/API Reference/Common parameters.md#section_hs4_m3y_gbb)|
+|<Common response parameters\>|-|For more information, see [Common response parameters](intl.en-US/API Reference/Common parameters.md#section_hs4_m3y_gbb).|
 
 ## Sample requests {#section_yt1_dbz_lfb .section}
 
