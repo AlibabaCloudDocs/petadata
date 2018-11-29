@@ -33,7 +33,7 @@ Prerequisites of calling this API:
 
 |Name|Type|Required|
 |----|----|--------|
-|<Common response parameters\>|-|For more information, see[Common response parameters](reseller.en-US/API Reference/Common parameters.md#section_hs4_m3y_gbb)|
+|<Common response parameters\>|-|For more information, see [Common response parameters](reseller.en-US/API Reference/Common parameters.md#section_hs4_m3y_gbb).|
 |InstanceId|String|The ID of the instance.|
 |SecurityIPList|String|The modified IP whitelist.|
 
