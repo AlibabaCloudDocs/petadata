@@ -19,7 +19,7 @@ Common request parameters refer to the required parameters in each API.
 
 ```
 https://petadata.aliyuncs.com/
-? Format=xml 
+?Format=xml 
 &Version=2013-08-15 
 &Signature=Pc5WB8gokVn0xfeu%2FZV%2BiNM1dgI%3D  
 &SignatureMethod=HMAC-SHA1 
