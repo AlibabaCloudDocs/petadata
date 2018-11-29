@@ -8,7 +8,7 @@ You can call this API to retrieve a list of monitoring metrics for an instance o
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|<Common request parameters\>|-|-|For more information, see[Common parameters](reseller.en-US/API Reference/Common parameters.md#)|
+|<Common request parameters\>|-|-|For more information, see [Common parameters](reseller.en-US/API Reference/Common parameters.md#).|
 |Action|String|Yes|Required parameter, and value is DescribeMonitorItems.|
 |InstanceId|String|Yes|The ID of the instance.|
 |ItemLevel|String|Yes|The type of the monitoring data.-   INSTANCE\_PERFORMANCE: the performance data for an instance.
