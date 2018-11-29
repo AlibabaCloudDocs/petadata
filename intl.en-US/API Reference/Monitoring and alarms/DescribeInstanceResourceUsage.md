@@ -12,7 +12,7 @@ Time related parameters are not required by default. If these parameters are lef
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|<Common request parameters\>|-|-|For more information, see[Common parameters](reseller.en-US/API Reference/Common parameters.md#)|
+|<Common request parameters\>|-|-|For more information, see [Common parameters](reseller.en-US/API Reference/Common parameters.md#).|
 |Action|String|Yes|Required parameter, and the value is DescribeInstanceResourceUsage.|
 |InstanceId|String|Yes|The ID of the instance.|
 |StartTime|String|No|The start time of the data sampling. For example, 2018-08-08T19:07:18Z.|
