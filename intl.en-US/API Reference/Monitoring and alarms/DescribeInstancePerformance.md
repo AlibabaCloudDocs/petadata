@@ -10,7 +10,7 @@ You can call this API to retrieve the performance data for an instance.
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|<Common request parameters\>|-|-|For more information, see[Common parameters](reseller.en-US/API Reference/Common parameters.md#)|
+|<Common request parameters\>|-|-|For more information, see [Common parameters](reseller.en-US/API Reference/Common parameters.md#).|
 |Action|String|Yes|Required parameter, and the value is DescribeInstancePerformance.|
 |InstanceId|String|Yes|The ID of the instance.|
 |Interval|String|Yes|The sampling interval.|
