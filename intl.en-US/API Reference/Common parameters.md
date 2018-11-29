@@ -2,7 +2,7 @@
 
 ## Common request parameters { .section}
 
-Common request parameters refer to the request parameters that are required in each API.
+Common request parameters refer to the required parameters in each API.
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
