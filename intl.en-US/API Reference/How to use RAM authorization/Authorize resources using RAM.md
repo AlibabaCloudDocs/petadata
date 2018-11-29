@@ -2,7 +2,7 @@
 
 Currently, RAM only supports authorizing DBInstance.
 
-Describe resources to be authorized through RAM as follows.
+The authorization rules of RAM are listed as follows.
 
 |Resource|Description in an authorization policy|
 |--------|--------------------------------------|
