@@ -10,7 +10,7 @@ You can call this API to retrieve details about a task based on a specified Task
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|<Common request parameters\>|-|-|For more information, see[Common parameters](reseller.en-US/API Reference/Common parameters.md#)|
+|<Common request parameters\>|-|-|For more information, see [Common parameters](reseller.en-US/API Reference/Common parameters.md#).|
 |Action|String|Yes|Required parameter, and the value is DescribeTaskStatus.|
 |InstanceId|String|Yes|The ID of the instance.|
 |TaskId|String|Yes|The ID of the task.|
