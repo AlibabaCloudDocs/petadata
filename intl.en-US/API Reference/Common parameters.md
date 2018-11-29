@@ -33,7 +33,7 @@ https://petadata.aliyuncs.com/
 
 ## Common response parameters {#section_hs4_m3y_gbb .section}
 
-Every time you send a request to call an operation, whether the call is successful or not, the system returns a unique identification code \(RequestId\) .
+Every time you send a request to call an operation, whether the request is successful or not, the system returns a unique identification code \(RequestId\) .
 
 Example:
 
