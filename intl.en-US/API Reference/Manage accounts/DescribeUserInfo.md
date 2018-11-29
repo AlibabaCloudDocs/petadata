@@ -10,7 +10,7 @@ You can call this API to retrieve user information.
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|<Common request parameters\>|-|-|For more information, see[Common parameters](reseller.en-US/API Reference/Common parameters.md#)|
+|<Common request parameters\>|-|-|For more information, see [Common parameters](reseller.en-US/API Reference/Common parameters.md#).|
 |Action|String|Yes|Required parameter, and the value is DescribeUserInfo.|
 
 ## Response parameters {#section_ey2_p5y_gbb .section}
