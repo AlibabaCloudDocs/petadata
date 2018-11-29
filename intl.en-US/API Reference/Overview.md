@@ -16,7 +16,7 @@
 
 |Name|Description|
 |----|-----------|
-|[DeleteDatabase](reseller.en-US/API Reference/Manage databases/DeleteDatabase.md#)|Delete a database..|
+|[DeleteDatabase](reseller.en-US/API Reference/Manage databases/DeleteDatabase.md#)|Delete a database.|
 |[DescribeDatabases](reseller.en-US/API Reference/Manage databases/DescribeDatabases.md#)|Retrieve a list of database in an instance.|
 |[DescribeDatabasePartitions](reseller.en-US/API Reference/Manage databases/DescribeDatabasePartitions.md#)|Retrieve details about the partitions of a database.|
 
