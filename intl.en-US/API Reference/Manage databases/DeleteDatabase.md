@@ -14,7 +14,7 @@ Prerequisites of calling this API:
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|<Common request parameters\>|-|-|For more information, see[Common parameters](reseller.en-US/API Reference/Common parameters.md#)|
+|<Common request parameters\>|-|-|For more information, see [Common parameters](reseller.en-US/API Reference/Common parameters.md#).|
 |Action|String|Yes|Required parameter, and the value is DeleteDatabase.|
 |InstanceId|String|Yes|The ID of the instance.|
 |DBName|String|Yes|The name of the database.|
@@ -24,7 +24,7 @@ Prerequisites of calling this API:
 
 |Name|Type|Description|
 |----|----|-----------|
-|<Common response parameters\>|-|For more information, see[Common response parameters](reseller.en-US/API Reference/Common parameters.md#section_hs4_m3y_gbb)|
+|<Common response parameters\>|-|For more information, see [Common response parameters](reseller.en-US/API Reference/Common parameters.md#section_hs4_m3y_gbb).|
 
 ## Sample requests {#section_vmm_w1z_lfb .section}
 
