@@ -8,7 +8,7 @@ For a successful request, data is usually returned in XML or JSON format. When y
 
 **XML format**
 
-The responses in XML format include information about whether the call was successful, and details specific to the operation. Example:
+The responses in XML format include information about whether the request was successful, and details specific to the API. Example:
 
 ```
 <? xml version="1.0" encoding="utf-8"? >  
@@ -31,7 +31,7 @@ The responses in XML format include information about whether the call was succe
 
 ## Error responses {#section_ovt_ljy_gbb .section}
 
-No result is returned if an error occurs while calling an operation. To identify the cause of an error, see [Error codes](reseller.en-US/API Reference/Appendix/Error codes/Client error codes.md#) in Appendix.
+No result is returned if an error occurs while calling an API. To identify the cause of an error, see [Error codes](reseller.en-US/API Reference/Appendix/Error codes/Client error codes.md#) in Appendix.
 
 If an error occurs while calling an API over HTTP, an HTTP status code that starts with `4xx` or `5xx` is returned. The returned message contains the specific error code and error message. It also contains a globally unique request ID \(RequestId\) and the ID of the site you accessed with this request \(HostId\). If you cannot identify the cause of the error, contact Alibaba Cloud customer service and provide your HostId and RequestId so that we can solve the problem as soon as possible.
 
