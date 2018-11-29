@@ -19,7 +19,7 @@ You can call this API to rename the instance.
 
 |Name|Type|Description|
 |----|----|-----------|
-|<Common response parameters\>|-|For more information, see[Common response parameters](reseller.en-US/API Reference/Common parameters.md#section_hs4_m3y_gbb)|
+|<Common response parameters\>|-|For more information, see [Common response parameters](reseller.en-US/API Reference/Common parameters.md#section_hs4_m3y_gbb).|
 
 ## Sample requests {#section_wmb_t1z_lfb .section}
 
