@@ -12,7 +12,7 @@ Time related parameters are not required by default. If these parameters are lef
 
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|<Common request parameters\>|-|-|For more information, see[Common parameters](reseller.en-US/API Reference/Common parameters.md#)|
+|<Common request parameters\>|-|-|For more information, see [Common parameters](reseller.en-US/API Reference/Common parameters.md#).|
 |Action|String|Yes|Required parameter, and the value is DescribeDatabaseResourceUsage.|
 |InstanceId|String|Yes|The ID of the instance.|
 |DBName|String|Yes|The name of the database.|
