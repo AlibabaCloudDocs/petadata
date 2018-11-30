@@ -20,7 +20,7 @@
 3.  在数据库的SQL命令行窗口中运行如下命令，查询客户端的IP地址。
 
     ```
-    show processlist；
+    show processlist;
     ```
 
     查询结果的Host字段即为客户端的IP地址。
