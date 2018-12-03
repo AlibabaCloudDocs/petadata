@@ -14,13 +14,13 @@ Internet IP addresses and intranet IP addresses are used in the following scenar
 
     -   The ECS instance where your application is deployed and your HybridDB for MySQL instance run in the same [type of network](reseller.en-US/User Guide/Manage instances/Switch network type.md#) and in the same region.
 
--   Use an internet IP address when:
+-   Use an Internet IP address when:
 
     -   The ECS instance where your application is deployed and your HybridDB for MySQL instance run in different regions.
 
     -   The application is deployed in a third-party system.
 
--   Use both an intranet IP address and an internet IP address when:
+-   Use both an intranet IP address and an Internet IP address when:
 
     -   The ECS instance where some modules are deployed, and your HybridDB for MySQL instance, run in the same [type of network](reseller.en-US/User Guide/Manage instances/Switch network type.md#) and in the same region, but another ECS instance where other modules are deployed runs in a different region to your HybridDB for MySQL instance.
 
@@ -35,5 +35,5 @@ Internet IP addresses and intranet IP addresses are used in the following scenar
 
     If you haven't applied for an Internet address since you created an instance, the Release Internet address button will be gray.
 
-4.  Click **OK** in the dialog box to release an Internet IP address.
+4.  Click **OK** in the dialog box to release the Internet IP address.
 
