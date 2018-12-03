@@ -208,6 +208,12 @@ HybridDB for MySQL支持几乎全部的MySQL函数，详细的用户请参考MyS
 -   `BIT_OR`
 -   `BIT_XOR`
 
+## JSON函数 {#section_vbv_2h3_yfb .section}
+
+-   `JSON_EXTRACT`
+-   `JSON_KEYS`
+-   `JSON_UNQUOTE`
+
 ## 系统函数 {#section_s2k_x2l_5fb .section}
 
 -   `DATABASE`
