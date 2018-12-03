@@ -35,5 +35,5 @@ Public IP addresses and internal IP addresses are used in the following scenario
 
     If you haven't applied for an Internet address since you created an instance, the Release Internet address button will be gray.
 
-4.  Click **OK** in the dialog box that appears to release an Internet IP address.
+4.  Click **OK** in the dialog box to release an Internet IP address.
 
