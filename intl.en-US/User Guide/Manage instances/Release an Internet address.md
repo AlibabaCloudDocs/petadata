@@ -6,21 +6,21 @@ Before performing this operation, please read the following scenarios.
 
 ## Scenarios { .section}
 
-Public IP addresses and internal IP addresses are used in the following scenarios:
+Internet IP addresses and intranet IP addresses are used in the following scenarios:
 
--   Use an internal IP address when:
+-   Use an intranet IP address when:
 
-    -   The system provides an internal IP address by default. You can modify this address directly.
+    -   The system provides an intranet IP address by default. You can modify this address directly.
 
     -   The ECS instance where your application is deployed and your HybridDB for MySQL instance run in the same [type of network](reseller.en-US/User Guide/Manage instances/Switch network type.md#) and in the same region.
 
--   Use a public IP address when:
+-   Use an internet IP address when:
 
     -   The ECS instance where your application is deployed and your HybridDB for MySQL instance run in different regions.
 
     -   The application is deployed in a third-party system.
 
--   Use both an internal IP address and a public IP address when:
+-   Use both an intranet IP address and an internet IP address when:
 
     -   The ECS instance where some modules are deployed, and your HybridDB for MySQL instance, run in the same [type of network](reseller.en-US/User Guide/Manage instances/Switch network type.md#) and in the same region, but another ECS instance where other modules are deployed runs in a different region to your HybridDB for MySQL instance.
 
