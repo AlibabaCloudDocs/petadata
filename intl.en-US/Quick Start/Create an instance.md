@@ -23,7 +23,7 @@
 
     |Parameter|Description|
     |---------|-----------|
-    |Region| Regions are the physical locations of instance. You cannot change the region after purchasing the instance.
+    |Region| Regions are the physical locations of instances. You cannot change the region after purchasing the instance.
 
      -   Please select a region based on the geographic location of the target user to improve users' access speed.
     -   Ensure that the HybridDB for MySQL instance and the ECS instance to be connected are in the same region. Instances in different regions can only communicate through the Internet which may reduce the performance of the instances.
