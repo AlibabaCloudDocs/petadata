@@ -43,7 +43,7 @@
     |Nodes|The default number of nodes is two. The maximum number of nodes for a Subscription instance is up to 64, and the maximum number of nodes for a Pay-As-You-Go instance is up to 128.|
 
 4.  After the settings are completed, click **Buy Now**.
-5.  Click the agreement of service on the Confirm Order page, and then click **Activate** button to finish the payment.
+5.  Check the agreement of service on the Confirm Order page, and then click **Activate** button to finish the payment.
 6.  You can find the new instance on the Instance list page.
 
     Initializing a HybridDB for MySQL database can take up to 20 minutes. You can perform subsequent operations on the instance once its status in the console becomes **Running**.
