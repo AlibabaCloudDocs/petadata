@@ -35,7 +35,7 @@
     -   **VPC \(recommended\)**: Also known as Virtual Private Cloud. VPC is a private network logically isolated from other virtual networks with higher security and performance than classic networks. If you choose a VPC network, a VPC and VSwitch which are in the same region of the HybridDB for MySQL should be created beforehand. For more information, see.
 
  |
-    |Database name|The database name which can not be changed once it is set, and the Chinese characters are not supported.**Note:** HybridDB for MySQL only supports a single database, and you can not create another database after creating an instance.
+    |Database name|The database name which cannot be changed once it is set, and the Chinese characters are not supported.**Note:** HybridDB for MySQL only supports a single database, and you cannot create another database after creating an instance.
 
 |
     |Account|The account to access the database, please specify the account with words which can indicate the usage of the account.|
