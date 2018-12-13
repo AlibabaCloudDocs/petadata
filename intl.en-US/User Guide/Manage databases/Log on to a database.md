@@ -9,7 +9,7 @@ Databases in HybridDB for MySQL are compatible with MySQL protocols. You can acc
 -   You can also choose**Manage** \> **Basic Information** in the console to see the IP address and port number of the instance.
 
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/18500/154468509711357_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/18500/154469311211357_en-US.png)
 
 ## Access HybridDB for MySQL using the MySQL client { .section}
 
@@ -40,6 +40,6 @@ If you encounter any problem during logging on to the database, please refer to 
 
 2.  How to get the IP address of the client or the IP address of ECS?
 
-    See [../../../../dita-oss-bucket/SP\_106/DNpetadata1894194/EN-USP\_40319.md\#](../../../../dita-oss-bucket/SP_106/DNpetadata1894194/EN-USP_40319.md#) for more information.
+    See [How to get the IP address of a client](../../../../reseller.en-US/FAQ/Usage and management/How to get the IP address of a client.md#) for more information.
 
 
