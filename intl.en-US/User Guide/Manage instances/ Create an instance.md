@@ -49,3 +49,7 @@
     Initializing a HybridDB for MySQL database can take up to 20 minutes. You can perform subsequent operations on the instance once its status in the console becomes **Running**.
 
 
+## Additional information {#section_xnw_hvm_cgb .section}
+
+A new instance keeps in "Creating" status for a long time. This issue is generally caused by insufficient back-end resources, please open a ticket to fix the issue.
+
