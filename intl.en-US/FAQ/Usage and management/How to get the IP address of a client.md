@@ -25,5 +25,5 @@ An `ip not in whitelist, client ip is x.x.x.x` error message will be returned wh
 
     The value in the Host field of the query result is the IP address of the client.
 
-4.  Remove `0.0.0.0/0,` from the whitelist, and add the IP address in the previous step to access the database with a client.
+4.  Remove `0.0.0.0/0` from the whitelist, and add the IP address in the previous step to access the database with a client.
 
