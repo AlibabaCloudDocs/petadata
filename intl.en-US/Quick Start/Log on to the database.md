@@ -2,10 +2,10 @@
 
 Databases in HybridDB for MySQL are compatible with MySQL protocols. You can access a HybridDB for MySQL database using the MySQL client or program.
 
--   You have created an instance and a database in the [HybridDB for MySQL console](https://petadata.console.aliyun.com), and they are in Running status. Then, you can continue with the database operations.
+-   You have created an instance and a database in the [HybridDB for MySQL console](https://partners-intl.console.aliyun.com/#/petadata), and they are in Running status. Then, you can continue with the database operations.
 -   By selecting**Manage** \> **Basic Information** in the console, you can see the IP address and port number of the instance.
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/18486/153690681011484_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/18486/154468512711484_en-US.png)
 
 ## Access HybridDB for MySQL using the MySQL client { .section}
 
