@@ -5,7 +5,7 @@ Databases in HybridDB for MySQL are compatible with MySQL protocols. You can acc
 -   You have created an instance and a database in the [HybridDB for MySQL console](https://partners-intl.console.aliyun.com/#/petadata), and they are in Running status. Then, you can continue with the database operations.
 -   By selecting**Manage** \> **Basic Information** in the console, you can see the IP address and port number of the instance.
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/18486/154468512711484_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/18486/154469300011484_en-US.png)
 
 ## Access HybridDB for MySQL using the MySQL client { .section}
 
@@ -25,4 +25,17 @@ The parameters in the preceding statement are described as follows:
 -   **-u**: specifies the database account.
 -   **-p**: specifies the account password.
 -   **dbname**: specifies the database name.
+
+## Additional information {#section_a3b_lwm_cgb .section}
+
+If you encounter any problem during logging on to the database, please refer to the following information to solve the problem.
+
+1.  Has the IP address of the client or the IP address of ECS been added to the whitelist?
+
+    Not yet, see [EN-US\_TP\_18494.md\#](reseller.en-US/User Guide/Manage instances/Set the whitelist.md#) for more information.
+
+2.  How to get the IP address of the client or the IP address of ECS?
+
+    See [How to get the IP address of a client](../../../../reseller.en-US/FAQ/Usage and management/How to get the IP address of a client.md#) for more information.
+
 
