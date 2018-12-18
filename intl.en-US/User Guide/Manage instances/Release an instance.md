@@ -11,10 +11,11 @@ The instance must be a Pay-As-You-Go type instance.
 ## Procedure {#section_cvn_lzk_sfb .section}
 
 1.  Log on the [HybridDB for MySQL console](https://partners-intl.console.aliyun.com/#/petadata).
-2.  Click **Manage** next to the required instance.
-3.  On the **Instance Information** page, click **Release**.
-4.  In the **Release Instance** dialog box that appears, click **OK**.
-5.  On the **Mobile Phone Verification** page, click **Obtain Verification Code**. Enter the verification code that you have received on your mobile phone and then click **OK**.
+2.  In the upper-left corner of the console, select the **region** where the instance is located.
+3.  Click **Manage** next to the required instance.
+4.  On the **Instance Information** page, click **Release**.
+5.  In the **Release Instance** dialog box that appears, click **OK**.
+6.  On the **Mobile Phone Verification** page, click **Obtain Verification Code**. Enter the verification code that you have received on your mobile phone and then click **OK**.
 
     **Note:** Released instances cannot be recovered. Make sure if you need the instance before you perform this operation.
 
