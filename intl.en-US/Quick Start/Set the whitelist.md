@@ -2,7 +2,7 @@
 
 To run a database securely and stably, you must add the IP addresses or CIDR blocks that are used to access the database to a whitelist. You can add up to 1,000 IP addresses.
 
-1.  Log on to the [HybridDB for MySQL console](https://petadata.console.aliyun.com/%22Console%22).
+1.  Log on the [HybridDB for MySQL console](https://partners-intl.console.aliyun.com/#/petadata).
 2.  Click **Manage** next to the required instance.
 3.  Click **Whitelist Settings** in the left-side navigation pane.
 4.  On the **Security** page, click **Create Whitelist**.
