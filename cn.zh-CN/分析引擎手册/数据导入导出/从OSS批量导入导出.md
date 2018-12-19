@@ -2,8 +2,6 @@
 
 HybridDB for MySQL支持直接从OSS中导入和导出数据，这也是HybridDB for MySQL的功能之一。
 
-从OSS中导入
-
 将数据从OSS导入到HybridDB for MySQL中需要如下四个步骤：
 
 -   准备OSS中真实数据文件的存储目录
