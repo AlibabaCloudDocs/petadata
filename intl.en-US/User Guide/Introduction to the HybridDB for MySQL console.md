@@ -1,6 +1,6 @@
 # Introduction to the HybridDB for MySQL console {#concept_pyh_zmk_x2b .concept}
 
-To manage instances and the databases in these instances, log on to the [HybridDB for MySQL console](https://petadata.console.aliyun.com/%22Console%22).
+To manage instances and the databases in these instances, log on to the [HybridDB for MySQL console](https://partners-intl.console.aliyun.com/#/petadata)\>.
 
 After you enter the console, you can see a list of instances. Click the instance ID or click **Manage** next to the required instance to go to its Basic Information page. To view databases, go to the left-side navigation pane and click **Databases**. Then, click the database name or click **Manage** next to the required database to go to its Basic Information page.
 

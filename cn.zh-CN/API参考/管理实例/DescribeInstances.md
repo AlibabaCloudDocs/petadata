@@ -8,7 +8,7 @@
 
 |名称|类型|是否必须|描述|
 |--|--|----|--|
-|<公共参数\>|-|是|参见[公共参数](intl.zh-CN/API参考/公共参数.md#)。|
+|<公共参数\>|-|是|参见[公共参数](cn.zh-CN/API参考/公共参数.md#)。|
 |Action|String|是|系统规定参数，取值为DescribeInstances。|
 |InstanceId|String|否|实例名。|
 |InstanceStatus|String|否|实例状态。|
@@ -23,7 +23,7 @@
 
 |名称|类型|描述|
 |--|--|--|
-|<公共返回参数\>|String|参见[公共返回参数](intl.zh-CN/API参考/公共参数.md#section_hs4_m3y_gbb)。|
+|<公共返回参数\>|String|参见[公共返回参数](cn.zh-CN/API参考/公共参数.md#section_hs4_m3y_gbb)。|
 |PageNumber|Integer|页码。|
 |PageSize|Integer|每页记录数。|
 |TotalCount|Integer|总记录数。|

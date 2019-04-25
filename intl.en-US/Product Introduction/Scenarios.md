@@ -6,7 +6,7 @@ In traditional data analysis, data is replicated from the operational database t
 
 To simplify the processing of large amounts of data between the operational database and the data warehouse, HybridDB for MySQL combines online transaction processing \(OLTP\) with online analytical processing \(OLAP\) using raw data directly. Therefore, the database can reduce storage costs, while minimizing the delay in data analysis, allowing for real-time analysis and decision making.
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/18479/153691033210128_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/18479/153959519010128_en-US.png)
 
 ## Internet of Things \(IoT\) { .section}
 
@@ -14,7 +14,7 @@ IoT applications concurrently process large amounts of data from multiple data s
 
 The distributed architecture of HybridDB for MySQL does not include the sharding feature, and provides users with only one database connection address and one corresponding logical table to minimize the costs of development, operations, and maintenance. To handle surges in service traffic data, users can simply increase storage nodes to deploy shards on more servers.
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/18479/153691033210129_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/18479/153959519010129_en-US.png)
 
 ## Historical logs { .section}
 
@@ -24,5 +24,5 @@ HybridDB for MySQL stores massive amounts of historical data \(up to PB\), and c
 
 The new HTAP database allows direct analysis of multi-dimensional OLAP data at any time, instead of requiring the data to be imported to business intelligence \(BI\) systems first.
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/18479/153691033210130_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/18479/153959519010130_en-US.png)
 

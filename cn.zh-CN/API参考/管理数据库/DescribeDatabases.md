@@ -8,7 +8,7 @@
 
 |名称|类型|是否必须|描述|
 |--|--|----|--|
-|<公共请求参数\>|-|-|参见[公共参数](intl.zh-CN/API参考/公共参数.md#)|
+|<公共请求参数\>|-|-|参见[公共参数](cn.zh-CN/API参考/公共参数.md#)|
 |Action|String|是|系统规定参数，取值为DescribeDatabases。|
 |InstanceId|String|是|实例名。|
 |DBName|String|否|数据库名。|
@@ -17,7 +17,7 @@
 
 |名称|类型|描述|
 |--|--|--|
-|<公共返回参数\>|String|参见[公共返回参数](intl.zh-CN/API参考/公共参数.md#section_hs4_m3y_gbb)。|
+|<公共返回参数\>|String|参见[公共返回参数](cn.zh-CN/API参考/公共参数.md#section_hs4_m3y_gbb)。|
 |InstanceId|String|实例名。|
 |Databases|List<Database\>|数据库组成的集合。|
 

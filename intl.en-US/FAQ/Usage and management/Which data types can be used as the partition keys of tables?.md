@@ -2,5 +2,5 @@
 
 HybridDB for MySQL currently allows only one column to function as the partition key of a table. Additionally, the column must be of the integer \(SMALLINT, INTEGER, and BIGINT\) or character \(CHAR and VARCHAR\) type. You cannot use a partition key that is composed of multiple columns.
 
-For more information, see [DDL statements](../../../../intl.en-US/User Guide/SQL Reference/DDL statements/CREATE TABLE.md#).
+For more information, see [DDL statements](../../../../reseller.en-US/User Guide/SQL Reference/DDL statements/CREATE TABLE.md#).
 

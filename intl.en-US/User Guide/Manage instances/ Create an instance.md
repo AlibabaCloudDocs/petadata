@@ -4,6 +4,8 @@
 
 -   You can use HybridDB for MySQL without RDS instances.
 -   In order to reduce the performance loss caused by the instability of the Internet, it is recommended to purchase an ECS instance to work with HybridDB for MySQL instances. However, you can still access HybridDB for MySQL instances though the Internet.
+-   To create an instance with more nodes or of higher specifications, [contact us](https://workorder-intl.console.aliyun.com/#/ticket/createIndex).
+
 
 ## Prerequisites { .section}
 
@@ -12,7 +14,7 @@
 
 ## Procedure { .section}
 
-1.  Log on to the [HybridDB for MySQL console](https://partners-intl.console.aliyun.com/#/petadata) and click **Create Instance**.
+1.  Log on to the [HybridDB for MySQL console](https://petadata.console.aliyun.com/) and click **Create Instance**.
 2.  Select a billing method.
     -   **Pay-As-You-Go**: PostPaid billing method, the billing unit is one hour. This billing method is suitable for short-term usage, and the instance can be released at any time saving the cost.
     -   **Subscription**: PrePaid billing method, you must pay for the instance when creating a new instance. This billing method is suitable for long-term usage, and it is more affordable than the Pay-As-You-Go billing method. The longer the subscription period you purchase, the more discount you get.
@@ -29,10 +31,12 @@
     -   Ensure that the HybridDB for MySQL instance and the ECS instance to be connected are in the same region. Instances in different regions can only communicate through the Internet which may reduce the performance of the instances.
  |
     |Zone|Zone is an independent physical area in a region, and there is no substantial difference between different zones. You can create your HybridDB for MySQL instance either in the same zone of the ECS instance, or not in the zone of the ECS instance.|
-    |Node Specification| |
+    |Node Specification| Only High Performance Transaction engine is provided.
+
+ |
     |Network type|     -   **Classic network**: A classic network type.
 
-    -   **VPC \(recommended\)**: Also known as Virtual Private Cloud. VPC is a private network logically isolated from other virtual networks with higher security and performance than classic networks. If you choose a VPC network, a VPC and a VSwitch which are in the same region of the HybridDB for MySQL should be created beforehand. For more information, see .
+    -   **VPC \(recommended\)**: Also known as Virtual Private Cloud. VPC is a private network logically isolated from other virtual networks with higher security and performance than classic networks. If you choose a VPC network, a VPC and a VSwitch which are in the same region of the HybridDB for MySQL should be created beforehand. For more information, see [VPC](https://www.alibabacloud.com/help/zh/doc-detail/65398.html).
 
  |
     |Database name|The database name which cannot be changed once it is set, and the Chinese characters are not supported.**Note:** HybridDB for MySQL only supports a single database, and you cannot create another database after creating an instance.
@@ -51,5 +55,5 @@
 
 ## Additional information {#section_xnw_hvm_cgb .section}
 
-A new instance keeps in "Creating" status for a long time. This issue is generally caused by insufficient back-end resources, please open a ticket to fix the issue.
+A new instance keeps in "Creating" status for a long time. This issue is generally caused by insufficient back-end resources, please try to create an instance in another region.
 
